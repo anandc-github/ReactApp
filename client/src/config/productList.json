@@ -1,0 +1,24 @@
+[
+    {
+        "id":"1",
+        "title":"Dosa",
+        "costPerUnit":"100.00",
+        "imgUrl":"/img/Dosa1.jpg",
+        "unit":"1"
+    },
+    {
+        "id":"2",
+        "title":"Idly & Vada",
+        "costPerUnit":"80.00",
+        "imgUrl":"/img/Idly.jpg",
+        "unit":"1"
+    },
+    {
+        "id":"3",
+        "title":"Filter Coffee",
+        "costPerUnit":"50.00",
+        "imgUrl":"/img/Coffee.jpg",
+        "unit":"1"
+    }
+
+]

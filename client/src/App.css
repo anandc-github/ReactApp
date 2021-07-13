@@ -1,0 +1,146 @@
+:root {
+  --primary-color: #17a2b8;
+  --dark-color: #343a40;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+  --site-color:#0d0da8;
+  /* --site-color:#0d0da8; */
+}
+
+.footer-css{
+	background-color:  var(--site-color);
+    HEIGHT: 2.6EM;
+}
+.body-css{
+  background:url('./img/foodBackground.jpg');
+  position: relative;
+   height: 85vh;
+   overflow: none;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-css{
+	/*background-color: #e88820;*/
+	/*background-color: #0834c7;*/
+  background-color: var(--site-color);
+	HEIGHT: 3.5EM;
+}
+.headerText {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+body {
+      margin: 0 auto;
+      height: 100%;
+      width: 100%;
+     
+        overflow-y: hidden; /* Hide vertical scrollbar */
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+     
+    }
+
+    
+	.card-header{
+	/*background-color: #e88820;*/
+	/*background-color: #0834c7;*/background-color: var(--site-color); color: white;
+	 text-align:center
+	}
+	.menu{
+		font-size: 22px;
+		/* color: #e88820;*/
+		 color: #0834c7;
+		 text-align:center;
+		 font-weight:bold;
+		 
+	}
+	.btn-menu {
+		/* color: #e88820;*/
+		 color: #0834c7;
+		 text-align:center;
+		 font-weight:bold;
+		 background-color:white;
+	}
+	
+	.quantity {
+   
+    text-align: center;
+   
+}
+.quantity input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+}
+.price-tag {
+    text-align: center;
+    color: white;
+}
+ .card-body{
+	 text-align:center;
+	 background-color:#e8e2e1;
+ }
+ 
+ .card{
+	 min-height: 361px;
+}
+.cardheight{
+  min-height: 0%;
+}
+
+.card-footer{
+background-color: var(--site-color);
+
+}
+.cardDesign{    opacity: 0.9;
+  top:100px;
+  }
+  .cardBillDesign{    
+    top:30px;
+    }
+
+  .overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    /* opacity: 0.5; */
+  }
+
+  .alert {
+    padding: 0.8rem;
+    margin: 1rem 0;
+    opacity: 0.9;
+    background: var(--light-color);
+    color: #333;
+  }
+  .alert-danger {
+    background: var(--danger-color);
+    color: #fff;
+  }
+  .alert-success {
+    background: var(--success-color);
+    color: #fff;
+  }
+  .alert-white {
+    background: #fff;
+    color: #333;
+    border: #ccc solid 1px;
+  }
+ .cart-btn {
+  background-color:  var(--site-color);
+  color: white;
+  font-weight: bold;
+}
+.minus-btn,.plus-btn{
+  width: 32px;
+    height: 29px;
+    padding: 0px;
+    background: white;
+}
